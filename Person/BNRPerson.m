@@ -10,14 +10,15 @@
 @implementation BNRPerson
 
 //getter
--(NSString *)eyeColor
-{
-  return eyeColor;
-}
+//-(NSString *)eyeColor
+//{
+//  return eyeColor;
+//}
 
 //setter
--(void)setEyeColor:(NSString *)value
-{
-  eyeColor = value;
-}
+//-(void)setEyeColor:(NSString *)value
+//{
+//  eyeColor = value;
+//}
+
 @end

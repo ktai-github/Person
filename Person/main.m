@@ -5,6 +5,8 @@
 //  Created by KevinT on 2017-11-15.
 //  Copyright © 2017 kevint. All rights reserved.
 //
+//what's the difference between readonly and readwrite?
+//readonly cannot write
 
 #import <Foundation/Foundation.h>
 #import "BNRPerson.h"

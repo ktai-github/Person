@@ -8,20 +8,23 @@
 #import <Foundation/Foundation.h>
 
 @interface BNRPerson : NSObject
-{
+
+@property (nonatomic, readwrite) NSString *eyeColor;
+
+//{
   //BNRPerson has instance variables
 //  float _heightInMeters;
 //  int _weightInKilos;
-  NSString *eyeColor;
-}
+//  NSString *eyeColor;
+//}
 
 //BNRPerson has methods to read and set its instance variables
 //- (float)heightInMeters;
 //- (void)setHeightInMeters:(float)h;
 //- (int)weightInKilos;
 //- (void)setWeightInKilos:(int)w;
-- (NSString *)eyeColor;
-- (void)setEyeColor:(NSString *)value;
+//- (NSString *)eyeColor;
+//- (void)setEyeColor:(NSString *)value;
 
 //BNRPerson has a method that calculates the Body Mass Index
 //- (float)bodyMassIndex;
